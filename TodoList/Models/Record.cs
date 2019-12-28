@@ -14,5 +14,6 @@ namespace TodoList.Models
 
         public List<TodoItem> TodoItems { get; set; }
 
+        public User User { get; set; }
     }
 }
