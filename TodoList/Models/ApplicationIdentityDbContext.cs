@@ -11,6 +11,6 @@ namespace TodoList.Models
     public class ApplicationIdentityDbContext : IdentityDbContext
     {
         public ApplicationIdentityDbContext(DbContextOptions<ApplicationIdentityDbContext> o) : base(o) {  }
-        public DbSet<User>
+        public DbSet<User> Users { get; set; }
     }
 }

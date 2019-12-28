@@ -8,6 +8,6 @@ namespace TodoList.Models
 {
     public class User : IdentityUser
     {
-
+        public List<Record> Records { get; set; }
     }
 }

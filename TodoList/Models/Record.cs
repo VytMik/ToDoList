@@ -11,7 +11,8 @@ namespace TodoList.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime DeadLine { get; set; }
+
         public List<TodoItem> TodoItems { get; set; }
-        public User User { get; set; }
+
     }
 }

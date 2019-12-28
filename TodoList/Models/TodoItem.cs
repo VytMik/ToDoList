@@ -9,6 +9,6 @@ namespace TodoList.Models
     {
         public int TodoItemId { get; set; }
         public string Title { get; set; }
-        public Record Record { get; set; }
+        public bool IsComplete { get; set; }
     }
 }
